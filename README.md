@@ -20,30 +20,32 @@ Game Util Program
 
 그 경우에 이런 개인 스탯 정보를 가지고 관리를 하는데, 문제는 하나의 연맹에는 120에서 140여명의 사람들이 모여있다. 이것을 일일히 수작업으로 Excel 파일에 타이핑을 하게되면 시간이 오래 걸리는(2,3시간)것은 물론이고 눈과 손가락 등 피로감이 쌓이게 된다.     
 또한, 이 게임에는 서버전이 존재한다. 상대 서버의 전력을 알아야 한다. 
-<img width="600" alt="ezgif com-gif-maker" src="https://user-images.githubusercontent.com/27637757/98066935-c04d7d00-1e9b-11eb-85d7-d69c33a8806f.png">
+<img width="600" alt="ezgif com-gif-maker" src="https://user-images.githubusercontent.com/27637757/98066935-c04d7d00-1e9b-11eb-85d7-d69c33a8806f.png">      
 이 작업도 이러한 서버의 정보를 가지고 Excel 작업을 진행한다. 이것도 상당한 시간이 소요되고 피로도를 동반한다.
 시간 소요를 단축하고 피로도를 줄이기 위해 스크린샷을 찍어 이미지를 인식하여 Excel로 변환하는 프로그램을 개발했다.
 
-  Member Scan : *ipad_member_scan, desktop_member_scan*     
-Server Scan : *server_scan*     
-*여기서는 member_scan에 관해서만 설명.*   
+Member Scan : *ipad_member_scan.ipynb, desktop_member_scan.ipynb*     
+Server Scan : *server_scan.ipynb*     
+*여기서는 Member Scan에 관해서만 설명.*   
 
 ## 개발 환경
-* Anaconda
+* **Anaconda**
     * OpenCV
     * Pandas
-* Jupyter Notebook
-* Google Cloud Vision
+* **Jupyter Notebook**
+* **Google Cloud Vision**
 
 ## 개발 내용
 * 위에 있는 이미지를 **OpenCV**와 **Pillow** 모듈을  이용하여 이미지를 Crop 및 전처리  
     <img width="200" alt="ezgif com-gif-maker" src="https://user-images.githubusercontent.com/27637757/98071088-f09a1900-1ea5-11eb-91ee-d5733177d9f0.PNG"> <img width="200" alt="ezgif com-gif-maker" src="https://user-images.githubusercontent.com/27637757/98071093-f1cb4600-1ea5-11eb-8f1d-b209a925b556.PNG">  <img width="200" alt="ezgif com-gif-maker" src="https://user-images.githubusercontent.com/27637757/98071087-f0018280-1ea5-11eb-8b5e-dab574096610.PNG">  
+
     이름 전투력 처치수  
     <img width="200" alt="ezgif com-gif-maker" src="https://user-images.githubusercontent.com/27637757/98071086-eed05580-1ea5-11eb-8b6e-5e91a337f1b6.PNG"> <img width="200" alt="ezgif com-gif-maker" src="https://user-images.githubusercontent.com/27637757/98071092-f132af80-1ea5-11eb-8a91-5b2506df468c.PNG">   
+
     전사 원조   
 
     <img width="400" alt="ezgif com-gif-maker" src="https://user-images.githubusercontent.com/27637757/98071090-f09a1900-1ea5-11eb-8294-30337ff52706.PNG">  
-
+    
     위 5개 이미지를 합친다
 
 * Google Cloud Platform의 **Cloud Vision**을 이용하여 이미지의 문자, 숫자를 인식
