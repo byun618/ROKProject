@@ -16,11 +16,11 @@ Game Util Program
 
 <img width="600" alt="ezgif com-gif-maker" src="https://user-images.githubusercontent.com/27637757/98066669-048c4d80-1e9b-11eb-8ad0-0f725e75376a.PNG">
 
-그 경우에 이런 개인 스탯 정보를 가지고 관리를 하는데, 문제는 하나의 연맹에는 120에서 140여명의 사람들이 모여있다. 이것을 일일히 수작업으로 Excel 파일에 타이핑을 하게되면 시간이 오래 걸리는(2,3시간)것은 물론이고 눈과 손가락 등 피로감이 쌓이게 된다.     
+그 경우에 이런 개인 스탯 정보를 가지고 관리를 하는데, 문제는 하나의 연맹에는 120에서 140여명의 사람들이 모여있다. 이것을 일일히 수작업으로 Excel 파일에 타이핑을 하게되면 시간이 오래 걸리는(2,3시간)것은 물론이고 눈과 손가락 등 피로가 쌓이게 된다.     
 또한, 이 게임에는 서버전이 존재한다. 상대 서버의 전력을 알아야 한다. 
 <img width="600" alt="ezgif com-gif-maker" src="https://user-images.githubusercontent.com/27637757/98066935-c04d7d00-1e9b-11eb-85d7-d69c33a8806f.png">      
 이 작업도 이러한 서버의 정보를 가지고 Excel 작업을 진행한다. 이것도 상당한 시간이 소요되고 피로도를 동반한다.
-시간 소요를 단축하고 피로도를 줄이기 위해 스크린샷을 찍어 이미지를 인식하여 Excel로 변환하는 프로그램을 개발했다.
+소요 시간을 단축하고 피로도를 줄이기 위해 스크린샷을 찍어 이미지를 인식하여 Excel로 변환하는 프로그램을 개발했다.
 
 Member Scan : *ipad_member_scan.ipynb, desktop_member_scan.ipynb*     
 Server Scan : *server_scan.ipynb*     
