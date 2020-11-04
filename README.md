@@ -24,7 +24,9 @@ Game Util Program
 이 작업도 이러한 서버의 정보를 가지고 Excel 작업을 진행한다. 이것도 상당한 시간이 소요되고 피로도를 동반한다.
 시간 소요를 단축하고 피로도를 줄이기 위해 스크린샷을 찍어 이미지를 인식하여 Excel로 변환하는 프로그램을 개발했다.
 
-*여기서는 member_scan에 관해서만 설명.*
+  Member Scan : *ipad_member_scan, desktop_member_scan*     
+Server Scan : *server_scan*     
+*여기서는 member_scan에 관해서만 설명.*   
 
 ## 개발 환경
 * Anaconda
