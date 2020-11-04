@@ -38,13 +38,12 @@ Server Scan : *server_scan.ipynb*
 ## 개발 내용
 * 위에 있는 이미지를 **OpenCV**와 **Pillow** 모듈을  이용하여 이미지를 Crop 및 전처리  
     <img width="200" alt="ezgif com-gif-maker" src="https://user-images.githubusercontent.com/27637757/98071088-f09a1900-1ea5-11eb-91ee-d5733177d9f0.PNG"> <img width="200" alt="ezgif com-gif-maker" src="https://user-images.githubusercontent.com/27637757/98071093-f1cb4600-1ea5-11eb-8f1d-b209a925b556.PNG">  <img width="200" alt="ezgif com-gif-maker" src="https://user-images.githubusercontent.com/27637757/98071087-f0018280-1ea5-11eb-8b5e-dab574096610.PNG">  
-
     이름 전투력 처치수  
-    <img width="200" alt="ezgif com-gif-maker" src="https://user-images.githubusercontent.com/27637757/98071086-eed05580-1ea5-11eb-8b6e-5e91a337f1b6.PNG"> <img width="200" alt="ezgif com-gif-maker" src="https://user-images.githubusercontent.com/27637757/98071092-f132af80-1ea5-11eb-8a91-5b2506df468c.PNG">   
 
+    <img width="200" alt="ezgif com-gif-maker" src="https://user-images.githubusercontent.com/27637757/98071086-eed05580-1ea5-11eb-8b6e-5e91a337f1b6.PNG"> <img width="200" alt="ezgif com-gif-maker" src="https://user-images.githubusercontent.com/27637757/98071092-f132af80-1ea5-11eb-8a91-5b2506df468c.PNG">   
     전사 원조   
 
-    <img width="400" alt="ezgif com-gif-maker" src="https://user-images.githubusercontent.com/27637757/98071090-f09a1900-1ea5-11eb-8294-30337ff52706.PNG">  
+    <img width="400" alt="ezgif com-gif-maker" src="https://user-images.githubusercontent.com/27637757/98071090-f09a1900-1ea5-11eb-8294-30337ff52706.PNG">      
     
     위 5개 이미지를 합친다
 
